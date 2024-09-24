@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Form chapter 7</h1>
+    <fieldset> <legend>Pernaol infarmation</legend>
+    <label for="name">Name: </label>
+    <div>
+        <input type="text" id="name" name="myname" placeholder="Enter Name">
+    </div>
+    <br>
+    <label for="role">Role:</label>
+    <div>
+      <input type="text" placeholder="Enter Role">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="myemail" placeholder="Enter Email">
+    </div>
+    <br>
+    <div>
+        <label for="date">Date:</label>
+       <input type="date" id="date" name="mydate" >
+    </div>
+     <br>
+     <div>
+        <label for="bonus">Bonus:</label>
+         <input type="number" id="bonus" name="mybonus" >
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are you Eligible: </label>
+            <input type="checkbox" id="eligible" name="myEligibilty">
+        </div>
+        <br>
+        <div>
+            Gender: <label for="male">Male:</label>
+           <input type="radio" id="male" name="mygender">
+           <label for="female">Female:</label>
+           <input type="radio" id="female" name="mygender"> 
+           <label for="other">Other:</label>
+           <input type="radio" id="other" name="mygender">
+        </div>
+    </fieldset>
+        <br>
+        <div>
+            <label for="aboutself"> Write about Your self</label>
+           <br><textarea name="myself" id="aboutself" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="Toyota" selected>Toyota</option>
+                <option value="revo">Revo</option>
+                <option value="Atlo">Alto</option>
+                <option value="Lenux">Lenux</option>
+                <option value="lencroser">lencroser</option>
+            </select>
+        </div>
+        <br>
+        <div>
+           <input type="submit" value="submit">
+           <input type="reset" value="reset">
+        </div>
+    </body>
+    </html>
